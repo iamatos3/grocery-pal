@@ -6,7 +6,7 @@
 
 **Grocery Pal** is a feature-rich `CRUD (Create, Read, Update, Delete)` application built using `Vite` and `React.js`. It offers users a convenient and reliable solution to manage their grocery or errand items. Users can seamlessly add, read, update, and delete items while ensuring that their information is persistently stored even after refreshing the application.
 
-<u>Key Features:</u>
+_Key Features:_
 
 - Item Management: Users can easily add, view, update, and delete `(CRUD)` grocery or errand items through a user-friendly interface.
 - Persistent Data: The application employs efficient data management techniques to save and retrieve user items, ensuring that the information is preserved even after refreshing the application or closing the browser.
