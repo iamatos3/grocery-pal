@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
 /* ============= GLOBAL CSS =============== */
 
 *,
@@ -136,7 +139,7 @@ ul {
 .btn {
   cursor: pointer;
   color: var(--white);
-  background: var(--primary-500);
+  background: var(--primary-700);
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -147,7 +150,7 @@ ul {
   display: inline-block;
 }
 .btn:hover {
-  background: var(--primary-700);
+  background: var(--primary-400);
   box-shadow: var(--shadow-3);
 }
 .btn-hipster {
@@ -265,6 +268,7 @@ ul {
   box-shadow: var(--shadow-1);
   transition: var(--transition);
 }
+
 .section-center:hover {
   box-shadow: var(--shadow-3);
 }
@@ -272,16 +276,20 @@ ul {
 form h4 {
   text-align: center;
   margin-bottom: 1.5rem;
+  font-family: 'Kalam', cursive;
 }
+
 .form-control {
   display: grid;
   grid-template-columns: 1fr 100px;
 }
+
 .form-input {
   border-radius: 0;
   border-top-left-radius: var(--borderRadius);
   border-bottom-left-radius: var(--borderRadius);
 }
+
 .form-control .btn {
   border-radius: 0;
   border-top-right-radius: var(--borderRadius);
@@ -293,20 +301,28 @@ form h4 {
   display: grid;
   row-gap: 1rem;
 }
+
 .single-item {
   display: grid;
   grid-template-columns: auto 1fr auto;
   column-gap: 1rem;
   align-items: center;
 }
+
 .single-item p {
   letter-spacing: var(--letterSpacing);
 }
 
 .remove-btn {
-  padding: 0.15rem 0.25rem;
+  padding: 0.20rem 0.35rem;
   font-size: 0.75rem;
   background: var(--black);
+  font-family: 'Kalam', cursive;
+}
+
+.remove-btn:hover {
+  box-shadow: var(--shadow-3);
+  background: #c93838;
 }
 
 .Toastify__toast {
